@@ -179,7 +179,6 @@
 		0572558E11F94A7B0044B1C6 /* TouchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0572558011F94A7B0044B1C6 /* TouchImageView.h */; };
 		0572558F11F94A7B0044B1C6 /* TouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0572558111F94A7B0044B1C6 /* TouchImageView.m */; };
 		0572559311F94AB80044B1C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572559211F94AB80044B1C6 /* UIKit.framework */; };
-		0572559911F94B520044B1C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572559811F94B520044B1C6 /* CoreGraphics.framework */; };
 		AA747D9F0F9514B9006C5449 /* webgnosus_xmpp_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* webgnosus_xmpp_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -357,7 +356,6 @@
 		0572558011F94A7B0044B1C6 /* TouchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchImageView.h; sourceTree = "<group>"; };
 		0572558111F94A7B0044B1C6 /* TouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchImageView.m; sourceTree = "<group>"; };
 		0572559211F94AB80044B1C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0572559811F94B520044B1C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AA747D9E0F9514B9006C5449 /* webgnosus_xmpp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webgnosus_xmpp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libwebgnosus_xmpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwebgnosus_xmpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,7 +370,6 @@
 				0566BB6811F919820037D47F /* libidn.a in Frameworks */,
 				0566BBB411F91CDC0037D47F /* CFNetwork.framework in Frameworks */,
 				0572559311F94AB80044B1C6 /* UIKit.framework in Frameworks */,
-				0572559911F94B520044B1C6 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,7 +707,6 @@
 				0566BB6711F919820037D47F /* libidn.a */,
 				0566BBB311F91CDC0037D47F /* CFNetwork.framework */,
 				0572559211F94AB80044B1C6 /* UIKit.framework */,
-				0572559811F94B520044B1C6 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
