@@ -179,6 +179,10 @@
 		0572558E11F94A7B0044B1C6 /* TouchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0572558011F94A7B0044B1C6 /* TouchImageView.h */; };
 		0572558F11F94A7B0044B1C6 /* TouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0572558111F94A7B0044B1C6 /* TouchImageView.m */; };
 		0572559311F94AB80044B1C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572559211F94AB80044B1C6 /* UIKit.framework */; };
+		05C5080211FA4F7A006FFD66 /* GridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C507FE11FA4F7A006FFD66 /* GridView.h */; };
+		05C5080311FA4F7A006FFD66 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C507FF11FA4F7A006FFD66 /* GridView.m */; };
+		05C5080411FA4F7A006FFD66 /* LabelGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C5080011FA4F7A006FFD66 /* LabelGridView.h */; };
+		05C5080511FA4F7A006FFD66 /* LabelGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C5080111FA4F7A006FFD66 /* LabelGridView.m */; };
 		AA747D9F0F9514B9006C5449 /* webgnosus_xmpp_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* webgnosus_xmpp_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -356,6 +360,10 @@
 		0572558011F94A7B0044B1C6 /* TouchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchImageView.h; sourceTree = "<group>"; };
 		0572558111F94A7B0044B1C6 /* TouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchImageView.m; sourceTree = "<group>"; };
 		0572559211F94AB80044B1C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05C507FE11FA4F7A006FFD66 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		05C507FF11FA4F7A006FFD66 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		05C5080011FA4F7A006FFD66 /* LabelGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelGridView.h; sourceTree = "<group>"; };
+		05C5080111FA4F7A006FFD66 /* LabelGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelGridView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* webgnosus_xmpp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webgnosus_xmpp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libwebgnosus_xmpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwebgnosus_xmpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -670,6 +678,10 @@
 		0572557311F94A7B0044B1C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				05C507FE11FA4F7A006FFD66 /* GridView.h */,
+				05C507FF11FA4F7A006FFD66 /* GridView.m */,
+				05C5080011FA4F7A006FFD66 /* LabelGridView.h */,
+				05C5080111FA4F7A006FFD66 /* LabelGridView.m */,
 				0572557411F94A7B0044B1C6 /* ActivityView.h */,
 				0572557511F94A7B0044B1C6 /* ActivityView.m */,
 				0572557611F94A7B0044B1C6 /* AlertViewManager.h */,
@@ -828,6 +840,8 @@
 				0572558A11F94A7B0044B1C6 /* SegmentedCycleList.h in Headers */,
 				0572558C11F94A7B0044B1C6 /* SegmentedListPicker.h in Headers */,
 				0572558E11F94A7B0044B1C6 /* TouchImageView.h in Headers */,
+				05C5080211FA4F7A006FFD66 /* GridView.h in Headers */,
+				05C5080411FA4F7A006FFD66 /* LabelGridView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,6 +970,8 @@
 				0572558B11F94A7B0044B1C6 /* SegmentedCycleList.m in Sources */,
 				0572558D11F94A7B0044B1C6 /* SegmentedListPicker.m in Sources */,
 				0572558F11F94A7B0044B1C6 /* TouchImageView.m in Sources */,
+				05C5080311FA4F7A006FFD66 /* GridView.m in Sources */,
+				05C5080511FA4F7A006FFD66 /* LabelGridView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
